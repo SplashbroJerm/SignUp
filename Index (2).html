@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure Travel Club</title>
+    <link rel="stylesheet" href="Adventure-travel-club.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-header">
+            <h1>Adventure Travel Club</h1>
+            <p>Begin your Journey with fellow adventurers!</p>
+        </div>
+        <form action="">
+            <div class="big-container">
+                <p class="top">Personal Information</p>
+                <div class="info-group">
+                    <label for="fname" id="Fname">First Name</label>
+                    <label for="fname" id="Lname">Last Name</label>
+                    <br>
+                    <input type="text" id="fname" name="fname" required>
+                    <input type="text" id="lname" name="lname" required>
+                </div>
+                <div class="info-group">
+                    <label for="email">Email Adress</label>
+                    <br>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="info-group">
+                    <label for="date">Date of Birth</label>
+                    <br>
+                    <input type="date" id="date" name="date" required>
+                </div>
+            </div>
+            <div class="big-container">
+                <p class="top">Adventure Preferences</p>
+                <div class="info-group">
+                    <label for="dropdown">Experience Level</label>
+                    <br>
+                    <select name="dropdown" id="dropdown">
+                    <option value="Please Select your experience level">Please Select your experience level</option>
+                    <option value="Beginner">Beginner</option>
+                    <option value="Intermediate">Intermediate</option>
+                    <option value="Expert">Expert</option>
+                    <option value="Professional">Professional</option>
+                    </select>
+                </div>
+                <div class="info-group">
+                    <label for="checkbox">Preferred Activites</label>
+                    <br>
+                    <input type="checkbox" id="choice" name="choice" value="Hiking" required> Hiking
+                    <br>
+                    <input type="checkbox" id="choice" name="choice" value="Rock Climbing" required> Rock Climbing
+                    <br>
+                    <input type="checkbox" id="choice" name="choice" value="Kayaking" required> Kayaking
+                    <br>
+                    <input type="checkbox" id="choice" name="choice" value="Scuba Diving" required> Scuba Diving
+                </div>
+                <div class="info-group">
+                    <label for="choices">Preferred Trip Duration</label>
+                    <br>
+                    <input type="radio" id="choices" name="choices" value="Weekend" required>Weekend Trips (2-3 Days)
+                    <br>
+                    <input type="radio" id="choices" name="choices" value="Week-Long" required>Week-long Adventures (5-7 Days)
+                    <br>
+                    <input type="radio" id="choices" name="choices" value="Extended Expedition" required>Extended Expedition (2+ Weeks)
+                </div>
+            </div>
+            <div class="big-container">
+                <p class="top">Additional Information</p>
+                <div class="info-group">
+                    <label for="donate">Fitness Level (1-10)</label>
+                    <br>
+                    <input type="range" min="1" max="10">
+                </div>
+                <div class="info-group">
+                    <label for="para">Tell us About Yourself</label>
+                    <br>
+                    <textarea name="bio" id="bio" cols="50" rows="7" placeholder="Share your adventure experiences and what excites you about joining our club...."></textarea>
+                    <p class="p">Keep it short and sweet</p>
+                </div>
+                <div class="info-group">
+                    <label for="picture">Profile Photo</label>
+                    <br>
+                    <input type="file" id="file" accept="image/*">
+                </div>
+            </div>
+            <div class="info-group">
+                <input type="checkbox" id="terms" name="terms" value="I agree to Terms and Conditions" required> I agree to Terms and Conditions
+            </div>
+            <button>Submit Registration</button>
+        </form>
+    </div>
+</body>
+</html>

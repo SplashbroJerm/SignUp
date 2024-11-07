@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: system-ui, sans-serif;
+    background: rgb(29, 29, 137);
+    padding: 20px;
+    line-height: 1.6;
+}
+.form-container{
+    background: white;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.big-container{
+    background-color: #f0f2f5;
+    margin: 20px;
+    border-radius: 7px;
+    padding: 10px;
+}
+.top{
+    color:royalblue;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 0.5px solid black;
+}
+#Lname{
+    margin-left: 90px;
+}
+.form-header{
+    text-align: center;
+}
+h1{
+    color: royalblue;
+}
+#file{
+    border: 1px solid black;
+    padding: 10px;
+}
+button{
+    background-color: rgb(29, 29, 137);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    align-self: center;
+    width: 100%;
+    border-radius: 10px;
+}
